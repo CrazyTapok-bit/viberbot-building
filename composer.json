@@ -1,0 +1,23 @@
+{
+    "name": "viberbot/building",
+	"license": "MIT",
+	"description": "Php interface for creating bots with Viber API",
+	"keywords": ["viber", "bot", "api", "viberbot"],
+	"authors": [
+		{
+			"name": "Сергій Засадинський",
+			"email": "main.profile.mail@gmail.com"
+		}
+	],
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Viberbot\\Building\\": "src/"
+        }
+    },
+    "require": {
+        "viberbot/messages": "0.1.0-beta.1"
+    }
+}
